@@ -15,12 +15,17 @@ Your goal in this lab is to simulate how ML engineers evaluate model behavior in
 
 To receive credit, walk your TA through the following:
 
-- [ ] **Log your run to W&B**, including dataset, predictions, and evaluation metrics, as a `predictions_table`
-- [ ] **Create at least 5 custom slices** using W&B Table filters and explain to the TA what insights you gained from each
-- [ ] **Generate 10 synthetic test cases** using an LLM for one new slice.
+## Deliverables
+
+Your goal in this lab is to simulate how ML engineers evaluate model behavior in production settings—by logging model predictions, slicing data to find failure patterns, and generating test cases to stress-test model performance.
+
+To receive credit, walk your TA through the following:
+
+- [ ] **Set up & Log your run to W&B**, create 2 slices with the filters, & generate bar chart visualizations of accuracy.
+- [ ] **Analyse your slices & their accuracies** and explain to the TA what insights you gained from each. Answer if accuracy can be misleading as an evaluation metric & why slicing data helps.
+- [ ] **Create 3 more slices & generate 10 synthetic test cases** using an LLM for one new slice.
 
 Hints: For the slices you create, you should be able to justify why you want to create them and demonstrate what you have observed for the created slices.
-
 
 ## Getting started
 - Clone the starter code from this [Git repository](https://github.com/nikitachaudharicodes/cmu-mlip-model-testing-lab).
